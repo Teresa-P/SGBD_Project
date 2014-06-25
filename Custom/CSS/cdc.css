@@ -1,0 +1,114 @@
+
+.backLink
+{
+	margin:10px 0 10px 0;
+	background-color:#D6D6D6;
+	padding: 4px 15px 4px 15px;
+	color: #000000 !important;
+	text-decoration: none;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	display: inline-block;
+}
+
+.backLink:hover
+{
+	background-color: #D3E8FF !important;
+}
+
+.generalDiv
+{
+	display: block;
+}
+
+.tables
+{
+	width: 100% !important;
+	table-layout: fixed !important;
+	text-align: center !important;
+	font-family: verdana,arial,sans-serif !important;
+	font-size: 11px !important;
+	color:#333333 !important;
+	border-width: 1px !important;
+	border-color: #666666 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed;
+	
+}
+table.tables th 
+{
+	border-width: 1px !important;
+	padding: 8px !important;
+	border-style: solid !important;
+	border-color: #666666 !important;
+	background-color: #8dd4f2 !important;
+	color: #fff;
+	word-wrap: break-word;
+}
+table.tables td 
+{
+	border-width: 1px!important;
+	padding: 8px!important;
+	border-style: solid!important;
+	border-color: #666666!important;
+	background-color: #ffffff!important;
+	word-wrap: break-word;
+}
+
+.forms
+{
+	background: #6ec4e8;
+	width: 200px; 
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border: hidden;
+	margin-top: 20px;
+	padding: 0;
+}
+.forms:hover
+{
+	cursor: hand !important;
+}
+
+
+.entry .labelDefault 
+{
+	width: 185px;
+	display: inline-block;
+	margin-bottom: 5px;
+	height: 20px;
+	vertical-align: top;
+}
+
+.entry .textboxDefault 
+{
+	display: inline-block;
+	width: 180px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	padding: 1px;
+	height: 20px;
+}
+
+.entry .ulDefault
+{
+	display: inline-block;
+	width: 400px;
+	vertical-align: bottom;
+	padding: 0;
+}
+
+.entry .error
+{
+	color: red;
+}
+
+.entry .selectDefault
+{
+	display: inline-block;
+	width: 184px;
+	margin-bottom: 5px;
+	height: 24px;
+}
